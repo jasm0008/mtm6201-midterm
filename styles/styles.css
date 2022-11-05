@@ -155,4 +155,42 @@ header{
 ***********************************************************/
 
 
+/***********************************************************
+                    PLATFORMS SELECTIONS
+***********************************************************/
+.platforms-grid{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.playstation-platform{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.xbox-platform{
+    grid-row: 1;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.nintendo-platform{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.pc-platform{
+    grid-row: 2;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+/***********************************************************
+                END OF PLATFORMS SELECTIONS
+***********************************************************/
+
+
 }
