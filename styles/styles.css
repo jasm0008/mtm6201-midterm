@@ -80,6 +80,40 @@ footer{
 
 
 /*************************************************
+                PLATFORM SECTION
+**************************************************/
+.playstation-platform{
+background-color:rgb(0, 119, 255);
+margin-top: 250px;
+}
+
+.nintendo-platform{
+    background-color:rgb(255, 0, 0);
+    margin-top: 250px;
+}
+
+.xbox-platform{
+    background-color:rgb(109, 184, 100);
+    margin-top: 250px;
+}
+
+.pc-platform{
+    background-color:rgb(116, 116, 116);
+    margin-top: 250px;
+}
+
+.playstation-platform, .nintendo-platform , .xbox-platform, .pc-platform h2{
+    text-align: center;
+}
+
+/*************************************************
+            END OF PLATFORM SECTION
+**************************************************/
+/*************************************************
+                    DESKTOP
+**************************************************/
+
+/*************************************************
                     DESKTOP
 **************************************************/
 @media only screen and (min-width: 760px){
@@ -162,6 +196,7 @@ header{
     display:grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
 }
 
 .playstation-platform{
