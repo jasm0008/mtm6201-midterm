@@ -68,6 +68,16 @@ nav ul {
     overflow: hidden;
 }
 
+/*THIS IS FOR FOOTER */
+footer p{
+    font-size: 12px;
+    margin-left: 2%;
+    color: white;
+}
+footer{
+    background-color: #222;
+}
+
 
 /*************************************************
                     DESKTOP
