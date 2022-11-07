@@ -84,25 +84,33 @@ footer{
 **************************************************/
 
 .playstation-platform{
-    margin-top: 250px;
-
+    margin-top: 150px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:rgb(40, 126, 230);
 
 
 }
 
 .nintendo-platform{
     background-color:rgb(255, 0, 0);
-    margin-top: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 150px;
 }
 
 .xbox-platform{
     background-color:rgb(109, 184, 100);
-    margin-top: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 150px;
 }
 
 .pc-platform{
     background-color:rgb(116, 116, 116);
-    margin-top: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 150px;
 }
 
 .playstation-platform, .nintendo-platform , .xbox-platform, .pc-platform h2{
@@ -212,6 +220,8 @@ header{
     /* it makes the background colour stick out to the x axis and not y axis */
     display: flex;
     flex: 1;
+
+    height: 300px;
 }
 
 .xbox-platform{
@@ -221,6 +231,8 @@ header{
 
     display: flex;
     flex: 1;
+
+    height: 300px;
 }
 
 .nintendo-platform{
@@ -230,6 +242,8 @@ header{
 
     display: flex;
     flex: 1;
+
+    height: 300px;
 }
 
 .pc-platform{
@@ -239,6 +253,8 @@ header{
 
     display: flex;
     flex: 1;
+
+    height: 300px;
 }
 
 /***********************************************************
