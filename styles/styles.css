@@ -89,7 +89,7 @@ footer{
 .playstation-platform{
     margin-top: 150px;
 
-    margin-right: 2%;
+    margin-left: 2%;
     background-color:rgb(40, 126, 230);
 
 
@@ -98,7 +98,7 @@ footer{
 .nintendo-platform{
     background-color:rgb(255, 0, 0);
     margin-top: 100px;
-
+    margin-left: 2%;
     margin-right: 2%;
 
 }
@@ -107,19 +107,19 @@ footer{
     background-color:rgb(109, 184, 100);
     margin-top: 150px;
     margin-left: 2%;
-
+    margin-right: 2%;
 }
 
 .pc-platform{
     background-color:rgb(116, 116, 116);
     margin-left: 2%;
-        margin-top: 100px;
+    margin-right: 2%;
+    margin-top: 100px;
 }
 
 .playstation-platform, .nintendo-platform , .xbox-platform, .pc-platform h2{
     text-align: center;
 }
-
 
 
 /*************************************************
