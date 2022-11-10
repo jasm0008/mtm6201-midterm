@@ -134,6 +134,12 @@ footer{
                     ON SALE PAGE
 **************************************************/
 
+.game_one:hover, .game_two:hover, .game_three:hover{
+    animation: blinker 0.2s linear infinite;
+}
+
+/*  animation */
+
 .productSaving_top{
     color: #ff0000;
 }
