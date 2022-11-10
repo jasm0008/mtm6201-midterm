@@ -139,6 +139,9 @@ footer{
 }
 .game_one button, .game_two button, .game_three button{
     background-color: rgb(255, 0, 0);
+
+    /* this adds rounded corners */
+    border-radius: 20px;
     width: 100px;
     height: 50px;
     border-color: transparent;
