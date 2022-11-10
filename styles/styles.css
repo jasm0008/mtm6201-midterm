@@ -278,7 +278,26 @@ footer{
 **************************************************/
 .gamessale-grid{
     margin-top: 6%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
+
+.game_one{
+    
+    display: inline-block;
+}
+
+.game_two{
+    display: inline-block;
+}
+
+.game_three{
+    display: inline-block;
+}
+
+
+
 /*************************************************
                 END OF ON SALE PAGE
 **************************************************/
