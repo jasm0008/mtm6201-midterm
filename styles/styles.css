@@ -132,12 +132,26 @@ footer{
 /*************************************************
                 CONTACT US PAGE
 **************************************************/
+/* this also fixes the desktop version, where "contact" goes over the nav */
+.infos{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
 .infos button{
     background-color: rgb(242, 242, 242);
     border-color: transparent;
     margin-bottom: 5%;
     margin-top: 2%;
     color: rgb(255, 0, 0);
+}
+
+.infos h1{
+    margin-bottom: 2%;
+}
+
+.infos h2{
+    margin-bottom: 2%;
 }
 /*************************************************
             END OF CONTACT US PAGE
