@@ -145,6 +145,7 @@ footer{
     width: 100px;
     height: 50px;
     border-color: transparent;
+    margin-top: 2%;
     margin-bottom: 5%;
     color: rgb(242, 242, 242);
 }
