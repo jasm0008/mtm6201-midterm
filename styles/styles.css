@@ -132,12 +132,12 @@ footer{
 /*************************************************
                 CONTACT US PAGE
 **************************************************/
-.information button{
-    background-color: #222;
+.infos button{
+    background-color: rgb(242, 242, 242);
     border-color: transparent;
     margin-bottom: 5%;
     margin-top: 2%;
-    color: #c78c06;
+    color: rgb(255, 0, 0);
 }
 /*************************************************
             END OF CONTACT US PAGE
