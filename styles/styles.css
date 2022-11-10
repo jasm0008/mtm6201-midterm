@@ -283,8 +283,12 @@ footer{
     gap: 10px;
 }
 
+.game_one img{
+    height: 470px;
+    width: 90%;
+}
+
 .game_one{
-    
     display: inline-block;
 }
 
