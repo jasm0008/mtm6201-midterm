@@ -285,9 +285,30 @@ header{
 /***********************************************************
                     FORM AND ELSE
 ***********************************************************/
+
+/* creating width for the input box */
 #message, #username, #useremail{
     width: 500px;
 }
 
+/* creates a template grid for the contact us elements (forms and map) */
+.infos{
+    display: grid;
+    
+}
+
+.location{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.form{
+    grid-row: 1;
+    grid-column-start: 4;
+    grid-column-end: 7;
 
 }
+
+/* END OF DESKTOP MEDIA */
+}
+
