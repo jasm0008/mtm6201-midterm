@@ -1,3 +1,7 @@
+body, button, input, optgroup, select, span, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,Arial,sans-serif;
+}
+
 /*************************************************
                 MOBILE VERSION
 **************************************************/
@@ -129,6 +133,10 @@ footer{
 /*************************************************
                     ON SALE PAGE
 **************************************************/
+
+.productSaving_top{
+    color: #ff0000;
+}
 .game_one button, .game_two button, .game_three button{
     background-color: rgb(255, 0, 0);
     width: 100px;
